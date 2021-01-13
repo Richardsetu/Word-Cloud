@@ -1,0 +1,62 @@
+#wordCloud{
+    height: 350px;
+	background-color: white;
+}
+
+.container h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#select, #Background, #text-color{
+    padding: 10px;
+    color: #666666;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+#Background{
+    width: 188px;
+    margin-left: 40px;
+}
+#text-color{
+    width: 188px;
+    margin-left: 54px;
+}
+#contact input[type="color"]{
+    border-radius: 5px;
+    width: 60px;
+    height: 28px;
+    margin: 2px;
+}
+#contact #background, #contact #titlecolor{
+    margin-left: 88px;
+}
+.color-area-click, #colornew{
+    margin-left: 130px;
+}
+#colornew{
+    cursor: pointer;
+    border: 1px solid #adadad;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+#download{
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 17px;
+    background: #08c290;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+
+#contact button[type="submit"]:active{
+    box-shadow: 0 !important;
+}
+#contact button[type="submit"]{
+    background: #08c290 !important;
+}
+#contact button[type="submit"]:hover{
+    background: #059a72 !important;
+}
